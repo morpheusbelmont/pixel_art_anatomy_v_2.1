@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 330" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+<title id="title">Figura humanoide en perspectiva isométrica</title><desc id="desc">Personaje pixel art en tres cuartos isométricos, con grupos musculares seleccionables.</desc>
+<rect width="240" height="330" fill="#111c23"/>
+<path d="M120 24l67 38-67 38-67-38z" fill="#14242c" stroke="#29434c" stroke-width="1" stroke-dasharray="3 4"/>
+<g stroke="#081117" stroke-width="2.4" stroke-linejoin="miter">
+<!-- cabeza en tres cuartos -->
+<g data-muscle="masseter" class="muscle-hotspot" tabindex="0" role="button" aria-label="Masetero">
+<path fill="#bd8463" d="M106 28h31l14 9v39l-13 11h-27l-9-10V40z"/>
+<path fill="#e4ad80" d="M106 31h27v7h9v30l-8 9h-23l-5-8V40h5z"/>
+<path fill="#f2c99b" d="M110 35h21v5h-21z"/>
+<path fill="#17232c" d="M116 48h7v4h-7zM135 49h7v4h-7z"/><path fill="#6c4033" d="M125 61h13v4h-13z"/>
+</g>
+<path fill="#d9a477" d="M116 82h22v15h-22z"/>
+<!-- torso oblicuo -->
+<path fill="#b94f4d" d="M101 94l33-5 26 15-3 43-20 26-31-8-15-29z"/>
+<g data-muscle="pectoralis" class="muscle-hotspot" tabindex="0" role="button" aria-label="Pectoral mayor">
+<path fill="#d85e57" d="M105 99l27-5 17 10-3 18-22 7-18-10z"/><path fill="#f08b69" d="M110 101l17-3 12 7-2 6-19 5z"/>
+</g>
+<g data-muscle="rectus" class="muscle-hotspot" tabindex="0" role="button" aria-label="Recto abdominal">
+<path fill="#bd4f4d" d="M121 126l19-6-2 29-17 12z"/><path fill="#f08b69" d="M126 130l8-3-1 7-8 3zM125 141l8-3-1 7-8 3z"/>
+</g>
+<g data-muscle="obliques" class="muscle-hotspot" tabindex="0" role="button" aria-label="Oblicuos">
+<path fill="#a94345" d="M100 123l17 8 4 25-13 4-10-20z"/>
+</g>
+<!-- brazo cercano -->
+<g data-muscle="deltoid" class="muscle-hotspot" tabindex="0" role="button" aria-label="Deltoides">
+<path fill="#e6b184" d="M91 101l15-9 15 9-5 20-15 4-10-10z"/>
+</g>
+<g data-muscle="biceps" class="muscle-hotspot" tabindex="0" role="button" aria-label="Bíceps braquial">
+<path fill="#c95150" d="M93 120l15 3-3 21-10 7-7-8z"/><path fill="#f07878" d="M96 125l5 1-2 13-4 2z"/>
+</g>
+<g data-muscle="forearm" class="muscle-hotspot" tabindex="0" role="button" aria-label="Músculos del antebrazo">
+<path fill="#d9a477" d="M91 148l13-4 4 24-8 14-9-4z"/>
+</g>
+<!-- brazo lejano -->
+<path fill="#d9a477" d="M151 107l13 3 8 25-4 19-10-1-4-20z"/>
+<!-- pelvis y pierna cercana -->
+<path fill="#d9a477" d="M106 164l30 8 8 14-18 13-22-11z"/>
+<g data-muscle="quadriceps" class="muscle-hotspot" tabindex="0" role="button" aria-label="Cuádriceps">
+<path fill="#4ca58b" d="M106 183l20 7 3 34-8 19-16-5-5-25z"/><path fill="#78d4a4" d="M110 191l5 2 1 25-5 5z"/>
+</g>
+<g data-muscle="tibialis" class="muscle-hotspot" tabindex="0" role="button" aria-label="Tibial anterior">
+<path fill="#3b947f" d="M105 238l16 4-1 31-8 20-12-4 4-20z"/>
+</g>
+<g data-muscle="calves" class="muscle-hotspot" tabindex="0" role="button" aria-label="Gastrocnemio y sóleo">
+<path fill="#4ca58b" d="M120 244l8 1 2 26-8 18-6-5 4-20z"/>
+</g>
+<path fill="#d9a477" d="M100 287l13 4 1 8-19 3-3-5z"/>
+<!-- pierna lejana -->
+<path fill="#3b947f" d="M131 190l14-8 13 22-1 30-9 21-12-4 5-23z"/>
+<path fill="#78d4a4" d="M142 211l5-2-2 22-5 5z"/>
+<path fill="#d9a477" d="M137 251l12 4-1 31-8 8-9-4 5-21zM132 286l12 3 5 8-20 3z"/>
+</g>
+<text x="120" y="321" text-anchor="middle" fill="#6be7ef" font-family="monospace" font-size="9">ISOMETRÍA / 3-4</text>
+</svg>

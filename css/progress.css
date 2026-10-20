@@ -1,0 +1,28 @@
+/* Módulo 06: tablero de progreso */
+.progress-app { display:grid; gap:1rem; }
+.progress-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; }
+.progress-heading h3 { margin:.35rem 0; font-size:clamp(1.2rem,2.4vw,1.8rem); }
+.progress-lead { color:var(--muted,#a4b2ba); line-height:1.6; max-width:720px; }
+.progress-chip { border:1px solid var(--accent,#6be7ef); color:var(--accent,#6be7ef); font: .65rem monospace; padding:.6rem; white-space:nowrap; }
+.progress-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:.7rem; }
+.progress-stat,.progress-panel { border:1px solid var(--border,#30414a); background:rgba(8,16,22,.45); padding:1rem; min-width:0; }
+.progress-stat > span { display:block; min-height:2.2em; font: .62rem/1.5 monospace; color:var(--muted,#a4b2ba); }
+.progress-stat > strong { display:block; font: 2rem/1.25 monospace; color:var(--accent,#6be7ef); margin:.5rem 0; }
+.progress-stat > strong small { font-size:.85rem; color:var(--muted,#a4b2ba); }
+.progress-stat em { display:block; color:var(--muted,#a4b2ba); font-size:.72rem; font-style:normal; line-height:1.5; margin-top:.55rem; }
+.progress-track { height:7px; background:#1c2a32; border:1px solid #30414a; }
+.progress-track i { display:block; height:100%; background:var(--accent,#6be7ef); }
+.progress-columns { display:grid; grid-template-columns:1.25fr .75fr; gap:1rem; }
+.progress-panel h4 { margin:.35rem 0 .9rem; font-size:1rem; }
+.progress-roadmap { list-style:none; margin:0; padding:0; display:grid; }
+.progress-roadmap li { display:grid; grid-template-columns:34px minmax(0,1fr) auto; gap:.7rem; align-items:start; padding:.85rem 0; border-top:1px solid var(--border,#30414a); }
+.progress-roadmap li > span { color:var(--accent,#6be7ef); font: .8rem monospace; padding-top:.1rem; }
+.progress-roadmap li strong { font-size:.85rem; }
+.progress-roadmap li p { margin:.35rem 0 0; font-size:.78rem; color:var(--muted,#a4b2ba); line-height:1.5; }
+.progress-roadmap li b { font: .58rem monospace; color:var(--muted,#a4b2ba); text-align:right; }
+.progress-roadmap li.is-done b,.progress-roadmap li.is-next b { color:var(--accent,#6be7ef); }
+.progress-note p { color:var(--muted,#a4b2ba); font-size:.82rem; line-height:1.65; }
+.progress-note .progress-muted { font-size:.74rem; opacity:.85; }
+.progress-footer { border-top:1px solid var(--border,#30414a); padding-top:.8rem; color:var(--muted,#a4b2ba); font: .58rem/1.6 monospace; }
+@media (max-width:900px) { .progress-stats { grid-template-columns:repeat(2,minmax(0,1fr)); } .progress-columns { grid-template-columns:1fr; } }
+@media (max-width:500px) { .progress-heading { flex-direction:column; } .progress-stat { padding:.75rem; } .progress-stat > strong { font-size:1.5rem; } .progress-roadmap li { grid-template-columns:28px minmax(0,1fr); } .progress-roadmap li b { grid-column:2; text-align:left; } }
